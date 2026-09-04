@@ -3,19 +3,14 @@ print ("welcome here")
 print("my first post!")
 print("===========================")
 
-username = "cool_creator"
+username = input("Enter your username: ")
 bio = "Fun blogger"
 followers = 100
+age = input( "Enter your age: ")
+category = input("Enter your category: ")
 
-print ("Username:", username)
-print ("Bio:", bio)
-print ("Followers:", followers)
-
-followers +=50
-print("Day 1:" , followers)
-
-followers +=20
-print("Day 2:" , followers)
-
-followers += 10
-print("Day 3:" , followers)
+print ("\nInstagram Profile")
+print("===========================")
+print("Username: ", username)
+print("age: ", age)
+print("category: ", category)
