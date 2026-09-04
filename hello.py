@@ -1,5 +1,5 @@
 username =input("Enter your username: ")
-age = input("Enter your age: ")
+age = int(input("Enter your age: "))
 category = input("Enter your category: ")
 
 print ("\nInstagram Profile")
@@ -8,3 +8,5 @@ print("Username:", username)
 print("Age:", age)
 print("Category:", category)
 
+if age > 40 and category == "fun":
+    print ("You are old what is fun for you?")
