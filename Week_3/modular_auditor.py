@@ -9,7 +9,7 @@ def get_valid_input():
         elif not stock.isdigit():
             print("Invalid input. Please enter a valid number.")
             failures += 1
-        elif int(stock) < 0:
+        elif int(stock) < 0:  
             print("Stock quantity cannot be negative.")
             failures += 1
         elif inventory + int(stock) > 500:
@@ -29,7 +29,7 @@ def process_delivery(current_total, new_value):
 
 def calculate_tax(amount):
     tax = amount * 0.10
-    return tax
+    print(f"Tax collected for this delivery: {tax}")
 
 def generate_report():
     print(f"Final inventory: {inventory}")
